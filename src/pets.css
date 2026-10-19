@@ -1,0 +1,48 @@
+/* Placeholder pets until the real mascot exists. Size follows --scale. */
+:root {
+  --pet-idle: #9aa3ad;
+  --pet-working: #5b8def;
+  --pet-waiting: #f0b03a;
+  --pet-done: #3fbf7f;
+}
+
+.pet {
+  --size: calc(64px * var(--scale, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(4px * var(--scale, 1));
+  transition: opacity 0.4s;
+}
+
+.pet-body {
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50% 50% 45% 45%;
+  background: var(--pet-idle);
+  transition: background 0.3s;
+}
+
+.pet[data-state="working"] .pet-body { background: var(--pet-working); animation: pet-bounce 0.6s ease-in-out infinite; }
+.pet[data-state="waiting"] .pet-body { background: var(--pet-waiting); animation: pet-pulse 1s ease-in-out infinite; }
+.pet[data-state="done"] .pet-body { background: var(--pet-done); }
+.pet[data-state="gone"] { opacity: 0.45; }
+
+.pet-label {
+  font: calc(12px * var(--scale, 1)) / 1.4 "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif;
+  color: #fff;
+  background: rgba(20, 22, 26, 0.8);
+  padding: 1px calc(8px * var(--scale, 1));
+  border-radius: 999px;
+  max-width: calc(90px * var(--scale, 1));
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@keyframes pet-bounce { 50% { transform: translateY(calc(-10px * var(--scale, 1))); } }
+@keyframes pet-pulse { 50% { transform: scale(1.08); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .pet .pet-body { animation: none !important; }
+}

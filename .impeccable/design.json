@@ -1,0 +1,707 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T13:06:40.175Z",
+  "title": "Design System: Collective Runtime",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Charcoal Ground",
+        "canonical": "#1b1c1f",
+        "oklch": "oklch(22.7% 0.006 271.1)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242528",
+          "#414245",
+          "#606165",
+          "#818286",
+          "#a3a5a9",
+          "#c7c9cd",
+          "#edeef3"
+        ]
+      },
+      "sidebar": {
+        "role": "neutral",
+        "displayName": "Night Sidebar",
+        "canonical": "#141517",
+        "oklch": "oklch(19.5% 0.004 264.5)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#242527",
+          "#414244",
+          "#606164",
+          "#818285",
+          "#a4a5a8",
+          "#c8c9cc",
+          "#edeef1"
+        ]
+      },
+      "sidebar-line": {
+        "role": "neutral",
+        "displayName": "Sidebar Seam",
+        "canonical": "#222326",
+        "oklch": "oklch(25.6% 0.006 271.2)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242528",
+          "#414245",
+          "#606165",
+          "#818286",
+          "#a3a5a9",
+          "#c8c9cd",
+          "#edeef2"
+        ]
+      },
+      "box": {
+        "role": "neutral",
+        "displayName": "Raised Charcoal",
+        "canonical": "#222327",
+        "oklch": "oklch(25.7% 0.008 274.7)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242529",
+          "#414246",
+          "#606166",
+          "#818287",
+          "#a3a5aa",
+          "#c7c9ce",
+          "#edeef4"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Lifted Charcoal",
+        "canonical": "#2a2c31",
+        "oklch": "oklch(29.3% 0.010 268.3)",
+        "tonalRamp": [
+          "#090b0f",
+          "#23252a",
+          "#404247",
+          "#5f6167",
+          "#808288",
+          "#a2a5ab",
+          "#c6c9d0",
+          "#eceef5"
+        ]
+      },
+      "raised-hover": {
+        "role": "neutral",
+        "displayName": "Lifted Charcoal Hover",
+        "canonical": "#33353b",
+        "oklch": "oklch(32.9% 0.011 271.1)",
+        "tonalRamp": [
+          "#090b10",
+          "#23252b",
+          "#404248",
+          "#5f6168",
+          "#808289",
+          "#a2a5ac",
+          "#c6c9d0",
+          "#eceef6"
+        ]
+      },
+      "nav-hover": {
+        "role": "neutral",
+        "displayName": "Nav Hover",
+        "canonical": "#1e1f22",
+        "oklch": "oklch(23.9% 0.006 271.2)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#242528",
+          "#414245",
+          "#606165",
+          "#818286",
+          "#a3a5a9",
+          "#c8c9cd",
+          "#edeef3"
+        ]
+      },
+      "nav-active": {
+        "role": "neutral",
+        "displayName": "Nav Selected",
+        "canonical": "#26272c",
+        "oklch": "oklch(27.4% 0.009 276.8)",
+        "tonalRamp": [
+          "#0a0b0f",
+          "#24252a",
+          "#414247",
+          "#606167",
+          "#818288",
+          "#a3a5ab",
+          "#c7c9cf",
+          "#edeef5"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#2f3136",
+        "oklch": "oklch(31.3% 0.009 268.4)",
+        "tonalRamp": [
+          "#090b0f",
+          "#23252a",
+          "#404247",
+          "#5f6167",
+          "#808288",
+          "#a2a5ab",
+          "#c6c9cf",
+          "#eceef5"
+        ]
+      },
+      "control-off": {
+        "role": "neutral",
+        "displayName": "Switch Rest",
+        "canonical": "#3a3c42",
+        "oklch": "oklch(35.7% 0.011 271.1)",
+        "tonalRamp": [
+          "#090b10",
+          "#23252a",
+          "#404248",
+          "#5f6168",
+          "#808289",
+          "#a2a5ac",
+          "#c6c9d0",
+          "#eceef6"
+        ]
+      },
+      "knob": {
+        "role": "neutral",
+        "displayName": "Knob White",
+        "canonical": "#f4f4f5",
+        "oklch": "oklch(96.7% 0.001 286.4)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252526",
+          "#424243",
+          "#616162",
+          "#828283",
+          "#a5a5a6",
+          "#c9c9ca",
+          "#eeeeef"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Paper Text",
+        "canonical": "#ececee",
+        "oklch": "oklch(94.4% 0.003 286.3)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252526",
+          "#424243",
+          "#616163",
+          "#828284",
+          "#a5a5a7",
+          "#c9c9cb",
+          "#eeeef0"
+        ]
+      },
+      "text-2": {
+        "role": "neutral",
+        "displayName": "Fog Text",
+        "canonical": "#a3a6ad",
+        "oklch": "oklch(72.5% 0.011 267.3)",
+        "tonalRamp": [
+          "#090b10",
+          "#23252a",
+          "#3f4248",
+          "#5e6167",
+          "#7f8289",
+          "#a2a5ac",
+          "#c6c9d0",
+          "#ebeef6"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Ember Coral",
+        "canonical": "#e2775a",
+        "oklch": "oklch(68.5% 0.140 36.1)",
+        "tonalRamp": [
+          "#1c0200",
+          "#470e00",
+          "#771e01",
+          "#a13c20",
+          "#c75f43",
+          "#ef8265",
+          "#ffb4a0",
+          "#fee9e4"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Lit Coral",
+        "canonical": "#ec8a6f",
+        "oklch": "oklch(73.2% 0.126 36.3)",
+        "tonalRamp": [
+          "#1c0200",
+          "#470d00",
+          "#761f02",
+          "#9b4229",
+          "#c1644a",
+          "#e8876c",
+          "#ffb49f",
+          "#fee9e3"
+        ]
+      },
+      "on-accent": {
+        "role": "primary",
+        "displayName": "Ember Ink",
+        "canonical": "#1d1210",
+        "oklch": "oklch(19.6% 0.019 30.4)",
+        "tonalRamp": [
+          "#120807",
+          "#2e2220",
+          "#4c3e3c",
+          "#6c5d5b",
+          "#8d7e7c",
+          "#b1a19e",
+          "#d5c5c2",
+          "#fbeae7"
+        ]
+      },
+      "ok": {
+        "role": "status",
+        "displayName": "Signal Green",
+        "canonical": "#3fbf7f",
+        "oklch": "oklch(71.9% 0.146 157.3)",
+        "tonalRamp": [
+          "#001006",
+          "#002e19",
+          "#034f2f",
+          "#017446",
+          "#079b5f",
+          "#40c080",
+          "#6be5a3",
+          "#c5ffdb"
+        ]
+      },
+      "ok-text": {
+        "role": "status",
+        "displayName": "Signal Green Text",
+        "canonical": "#5fd89a",
+        "oklch": "oklch(79.7% 0.142 158.3)",
+        "tonalRamp": [
+          "#000f06",
+          "#002e19",
+          "#015030",
+          "#037448",
+          "#089b62",
+          "#43bf83",
+          "#6de5a6",
+          "#c4ffdc"
+        ]
+      },
+      "danger": {
+        "role": "status",
+        "displayName": "Alarm Red",
+        "canonical": "#f07070",
+        "oklch": "oklch(69.8% 0.158 22.0)",
+        "tonalRamp": [
+          "#1f0002",
+          "#4d000a",
+          "#800018",
+          "#a92e36",
+          "#d05356",
+          "#f87777",
+          "#ffb2af",
+          "#ffe9e7"
+        ]
+      },
+      "danger-text": {
+        "role": "status",
+        "displayName": "Alarm Red Text",
+        "canonical": "#ff8b8b",
+        "oklch": "oklch(76.3% 0.141 20.9)",
+        "tonalRamp": [
+          "#1f0002",
+          "#4c010d",
+          "#7c0f1f",
+          "#a2373d",
+          "#c95b5d",
+          "#f07e7e",
+          "#feb2b0",
+          "#ffe8e7"
+        ]
+      },
+      "agent-claude": {
+        "role": "agent-identity",
+        "displayName": "Claude Coral",
+        "canonical": "#e2775a",
+        "oklch": "oklch(68.5% 0.140 36.1)",
+        "tonalRamp": [
+          "#1c0200",
+          "#470e00",
+          "#771e01",
+          "#a13c20",
+          "#c75f43",
+          "#ef8265",
+          "#ffb4a0",
+          "#fee9e4"
+        ]
+      },
+      "agent-gemini": {
+        "role": "agent-identity",
+        "displayName": "Gemini Cyan",
+        "canonical": "#45c4dc",
+        "oklch": "oklch(76.1% 0.114 212.8)",
+        "tonalRamp": [
+          "#000e12",
+          "#012b32",
+          "#014b57",
+          "#026d7e",
+          "#0392a8",
+          "#34b7cf",
+          "#62ddf5",
+          "#d1f6fe"
+        ]
+      },
+      "agent-antigravity": {
+        "role": "agent-identity",
+        "displayName": "Antigravity Violet",
+        "canonical": "#9b7bf0",
+        "oklch": "oklch(66.5% 0.169 293.9)",
+        "tonalRamp": [
+          "#0f002a",
+          "#2d0162",
+          "#4b2190",
+          "#6946b6",
+          "#8a69dc",
+          "#ab8ffe",
+          "#ccbefe",
+          "#efecfe"
+        ]
+      },
+      "agent-codex": {
+        "role": "agent-identity",
+        "displayName": "Codex Pink",
+        "canonical": "#e46fb0",
+        "oklch": "oklch(69.8% 0.162 347.6)",
+        "tonalRamp": [
+          "#1c0010",
+          "#47012f",
+          "#770151",
+          "#9e2e72",
+          "#c55394",
+          "#ec76b7",
+          "#ffacd6",
+          "#ffe7f2"
+        ]
+      },
+      "pet-idle": {
+        "role": "pet-state",
+        "displayName": "Idle Grey",
+        "canonical": "#9aa3ad",
+        "oklch": "oklch(71.1% 0.018 250.9)",
+        "tonalRamp": [
+          "#060c12",
+          "#1f262e",
+          "#3b434b",
+          "#5a626b",
+          "#7b838d",
+          "#9da6b0",
+          "#c1cad5",
+          "#e6f0fa"
+        ]
+      },
+      "pet-working": {
+        "role": "pet-state",
+        "displayName": "Working Blue",
+        "canonical": "#5b8def",
+        "oklch": "oklch(65.5% 0.156 262.5)",
+        "tonalRamp": [
+          "#00062a",
+          "#001b62",
+          "#0d3893",
+          "#2d5bb8",
+          "#4d7edf",
+          "#73a3ff",
+          "#adcafe",
+          "#e7effe"
+        ]
+      },
+      "pet-waiting": {
+        "role": "pet-state",
+        "displayName": "Needs-You Amber",
+        "canonical": "#f0b03a",
+        "oklch": "oklch(79.8% 0.147 78.4)",
+        "tonalRamp": [
+          "#120900",
+          "#332100",
+          "#583c03",
+          "#805904",
+          "#ab7705",
+          "#d69810",
+          "#fdbc49",
+          "#ffeccf"
+        ]
+      },
+      "pet-done": {
+        "role": "pet-state",
+        "displayName": "Done Green",
+        "canonical": "#3fbf7f",
+        "oklch": "oklch(71.9% 0.146 157.3)",
+        "tonalRamp": [
+          "#001006",
+          "#002e19",
+          "#034f2f",
+          "#017446",
+          "#079b5f",
+          "#40c080",
+          "#6be5a3",
+          "#c5ffdb"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page title, one per page."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Theme card name."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Page descriptions and general copy."
+      },
+      "body-strong": {
+        "displayName": "Body Strong",
+        "purpose": "Setting and agent names, buttons, health pill name."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "The one-sentence description under each setting."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase group label that heads its box."
+      },
+      "label-badge": {
+        "displayName": "Label Badge",
+        "purpose": "Badge text and the health status word."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Inline file paths only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "knob-lift",
+        "value": "0 1px 2px rgba(0, 0, 0, 0.35)",
+        "purpose": "Switch knob."
+      },
+      {
+        "name": "thumb-lift",
+        "value": "0 1px 3px rgba(0, 0, 0, 0.4)",
+        "purpose": "Slider thumb."
+      },
+      {
+        "name": "agent-ring",
+        "value": "0 0 0 2px var(--sidebar), 0 0 0 4px var(--ring)",
+        "purpose": "Agent identity ring around a live pet in the sidebar."
+      },
+      {
+        "name": "agent-ring-narrow",
+        "value": "0 0 0 1px var(--sidebar), 0 0 0 3px var(--ring)",
+        "purpose": "Agent ring at 900px and below."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 2px solid var(--accent); outline-offset: 2px",
+        "purpose": "Keyboard focus on every control."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "House ease for interface transitions."
+      },
+      {
+        "name": "duration-quick",
+        "value": "0.15s",
+        "purpose": "Nav item and button fill changes."
+      },
+      {
+        "name": "duration-switch",
+        "value": "0.2s",
+        "purpose": "Switch fill and knob slide."
+      },
+      {
+        "name": "pet-colour",
+        "value": "0.3s",
+        "purpose": "Pet body colour change on state change."
+      },
+      {
+        "name": "pet-fade",
+        "value": "0.4s",
+        "purpose": "Finished pet fading to 45% opacity."
+      },
+      {
+        "name": "pet-bounce",
+        "value": "0.6s ease-in-out infinite, translateY(-10px × scale)",
+        "purpose": "Working pet."
+      },
+      {
+        "name": "pet-pulse",
+        "value": "1s ease-in-out infinite, scale(1.08)",
+        "purpose": "Pet that needs you."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "All transitions and pet animations off."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "900px",
+        "purpose": "max-width: sidebar 200px, tighter content padding, 160px slider, smaller live pets."
+      },
+      {
+        "name": "design-window",
+        "value": "1100x760",
+        "purpose": "Settings window size the layout is designed for."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The likely next action in a row, such as Connect. Coral fill, dark ink text.",
+      "html": "<button class=\"ds-btn ds-btn-primary\" type=\"button\">Connect</button>",
+      "css": ":host, .ds-root { --ground:#1b1c1f; --sidebar:#141517; --box:#222327; --raised:#2a2c31; --raised-hover:#33353b; --line:#2f3136; --text:#ececee; --text-2:#a3a6ad; --accent:#e2775a; --accent-hover:#ec8a6f; --on-accent:#1d1210; --ok:#3fbf7f; --danger:#f07070; --agent-claude:#e2775a; --agent-gemini:#45c4dc; --agent-antigravity:#9b7bf0; --agent-codex:#e46fb0; --pet-idle:#9aa3ad; --pet-working:#5b8def; --pet-waiting:#f0b03a; --pet-done:#3fbf7f; --radius:12px; --ease:cubic-bezier(0.22,1,0.36,1); font:14px/1.5 \"Segoe UI Variable Text\",\"Segoe UI\",system-ui,sans-serif; color:var(--text); } .ds-btn { height:34px; padding:0 16px; border:1px solid var(--line); border-radius:8px; background:var(--raised); color:var(--text); font:inherit; font-weight:600; cursor:pointer; transition:background .15s var(--ease); } .ds-btn:hover { background:var(--raised-hover); } .ds-btn:focus-visible { outline:2px solid var(--accent); outline-offset:2px; } .ds-btn:disabled { opacity:.55; cursor:default; } .ds-btn-primary { border-color:transparent; background:var(--accent); color:var(--on-accent); } .ds-btn-primary:hover { background:var(--accent-hover); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "The reversing action, such as Disconnect. Lifted charcoal with a hairline.",
+      "html": "<button class=\"ds-btn\" type=\"button\">Disconnect</button>",
+      "css": ":host, .ds-root { --ground:#1b1c1f; --sidebar:#141517; --box:#222327; --raised:#2a2c31; --raised-hover:#33353b; --line:#2f3136; --text:#ececee; --text-2:#a3a6ad; --accent:#e2775a; --accent-hover:#ec8a6f; --on-accent:#1d1210; --ok:#3fbf7f; --danger:#f07070; --agent-claude:#e2775a; --agent-gemini:#45c4dc; --agent-antigravity:#9b7bf0; --agent-codex:#e46fb0; --pet-idle:#9aa3ad; --pet-working:#5b8def; --pet-waiting:#f0b03a; --pet-done:#3fbf7f; --radius:12px; --ease:cubic-bezier(0.22,1,0.36,1); font:14px/1.5 \"Segoe UI Variable Text\",\"Segoe UI\",system-ui,sans-serif; color:var(--text); } .ds-btn { height:34px; padding:0 16px; border:1px solid var(--line); border-radius:8px; background:var(--raised); color:var(--text); font:inherit; font-weight:600; cursor:pointer; transition:background .15s var(--ease); } .ds-btn:hover { background:var(--raised-hover); } .ds-btn:focus-visible { outline:2px solid var(--accent); outline-offset:2px; } .ds-btn:disabled { opacity:.55; cursor:default; } "
+    },
+    {
+      "name": "Switch",
+      "kind": "input",
+      "refersTo": "switch-on",
+      "description": "A restyled native checkbox with the switch role; coral when on.",
+      "html": "<div class=\"ds-row-inline\"><input class=\"ds-switch\" type=\"checkbox\" role=\"switch\" checked aria-label=\"Show name labels\"><input class=\"ds-switch\" type=\"checkbox\" role=\"switch\" aria-label=\"Start with Windows\"></div>",
+      "css": ":host, .ds-root { --ground:#1b1c1f; --sidebar:#141517; --box:#222327; --raised:#2a2c31; --raised-hover:#33353b; --line:#2f3136; --text:#ececee; --text-2:#a3a6ad; --accent:#e2775a; --accent-hover:#ec8a6f; --on-accent:#1d1210; --ok:#3fbf7f; --danger:#f07070; --agent-claude:#e2775a; --agent-gemini:#45c4dc; --agent-antigravity:#9b7bf0; --agent-codex:#e46fb0; --pet-idle:#9aa3ad; --pet-working:#5b8def; --pet-waiting:#f0b03a; --pet-done:#3fbf7f; --radius:12px; --ease:cubic-bezier(0.22,1,0.36,1); font:14px/1.5 \"Segoe UI Variable Text\",\"Segoe UI\",system-ui,sans-serif; color:var(--text); } .ds-row-inline { display:flex; gap:16px; } .ds-switch { appearance:none; position:relative; width:42px; height:24px; margin:0; border-radius:999px; background:#3a3c42; cursor:pointer; transition:background .2s var(--ease); } .ds-switch::before { content:\"\"; position:absolute; top:3px; left:3px; width:18px; height:18px; border-radius:50%; background:#f4f4f5; box-shadow:0 1px 2px rgba(0,0,0,.35); transition:transform .2s var(--ease); } .ds-switch:checked { background:var(--accent); } .ds-switch:checked::before { transform:translateX(18px); } .ds-switch:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }"
+    },
+    {
+      "name": "Slider",
+      "kind": "input",
+      "description": "Native range with a coral fill up to the value and a coral readout.",
+      "html": "<div class=\"ds-slider\"><input type=\"range\" min=\"50\" max=\"150\" step=\"10\" value=\"100\" style=\"--fill:50%\" aria-label=\"Pet size\"><output>100%</output></div>",
+      "css": ":host, .ds-root { --ground:#1b1c1f; --sidebar:#141517; --box:#222327; --raised:#2a2c31; --raised-hover:#33353b; --line:#2f3136; --text:#ececee; --text-2:#a3a6ad; --accent:#e2775a; --accent-hover:#ec8a6f; --on-accent:#1d1210; --ok:#3fbf7f; --danger:#f07070; --agent-claude:#e2775a; --agent-gemini:#45c4dc; --agent-antigravity:#9b7bf0; --agent-codex:#e46fb0; --pet-idle:#9aa3ad; --pet-working:#5b8def; --pet-waiting:#f0b03a; --pet-done:#3fbf7f; --radius:12px; --ease:cubic-bezier(0.22,1,0.36,1); font:14px/1.5 \"Segoe UI Variable Text\",\"Segoe UI\",system-ui,sans-serif; color:var(--text); } .ds-slider { display:flex; align-items:center; gap:14px; } .ds-slider output { width:44px; text-align:right; color:var(--accent); font-variant-numeric:tabular-nums; } .ds-slider input { --fill:50%; appearance:none; width:220px; height:20px; margin:0; background:transparent; cursor:pointer; } .ds-slider input::-webkit-slider-runnable-track { height:4px; border-radius:999px; background:linear-gradient(to right, var(--accent) var(--fill), #3a3c42 var(--fill)); } .ds-slider input::-webkit-slider-thumb { appearance:none; width:18px; height:18px; margin-top:-7px; border-radius:50%; background:#f4f4f5; border:3px solid var(--accent); box-shadow:0 1px 3px rgba(0,0,0,.4); } .ds-slider input:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }"
+    },
+    {
+      "name": "Sidebar Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Vertical sidebar nav; the selected item gets a lifted fill and a coral icon.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Settings sections\"><button class=\"ds-nav-item\" aria-current=\"page\" type=\"button\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"5\" r=\"2.4\"/><circle cx=\"4.5\" cy=\"14.5\" r=\"2.4\"/><circle cx=\"15.5\" cy=\"14.5\" r=\"2.4\"/><path d=\"M8.8 7.1 5.7 12.4M11.2 7.1l3.1 5.3M6.9 14.5h6.2\"/></svg>Agents</button><button class=\"ds-nav-item\" type=\"button\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M3 6h14M3 14h14\"/><circle cx=\"12.5\" cy=\"6\" r=\"2.2\"/><circle cx=\"7\" cy=\"14\" r=\"2.2\"/></svg>General</button></nav>",
+      "css": ":host, .ds-root { --ground:#1b1c1f; --sidebar:#141517; --box:#222327; --raised:#2a2c31; --raised-hover:#33353b; --line:#2f3136; --text:#ececee; --text-2:#a3a6ad; --accent:#e2775a; --accent-hover:#ec8a6f; --on-accent:#1d1210; --ok:#3fbf7f; --danger:#f07070; --agent-claude:#e2775a; --agent-gemini:#45c4dc; --agent-antigravity:#9b7bf0; --agent-codex:#e46fb0; --pet-idle:#9aa3ad; --pet-working:#5b8def; --pet-waiting:#f0b03a; --pet-done:#3fbf7f; --radius:12px; --ease:cubic-bezier(0.22,1,0.36,1); font:14px/1.5 \"Segoe UI Variable Text\",\"Segoe UI\",system-ui,sans-serif; color:var(--text); } .ds-nav { display:flex; flex-direction:column; gap:2px; width:216px; padding:12px; background:var(--sidebar); } .ds-nav-item { display:flex; align-items:center; gap:12px; height:40px; padding:0 12px; border:0; border-radius:8px; background:transparent; color:var(--text-2); font:inherit; font-size:14.5px; text-align:left; cursor:pointer; transition:background .15s var(--ease), color .15s var(--ease); } .ds-nav-item svg { width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; } .ds-nav-item:hover { background:#1e1f22; color:var(--text); } .ds-nav-item[aria-current=\"page\"] { background:#26272c; color:var(--text); font-weight:600; } .ds-nav-item[aria-current=\"page\"] svg { color:var(--accent); } .ds-nav-item:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }"
+    },
+    {
+      "name": "Badges",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Small uppercase state pills: neutral, connected (green wash), error (red wash).",
+      "html": "<div class=\"ds-badges\"><span class=\"ds-badge\">Hook</span><span class=\"ds-badge ds-badge-ok\">Connected</span><span class=\"ds-badge ds-badge-error\">Error</span></div>",
+      "css": ":host, .ds-root { --ground:#1b1c1f; --sidebar:#141517; --box:#222327; --raised:#2a2c31; --raised-hover:#33353b; --line:#2f3136; --text:#ececee; --text-2:#a3a6ad; --accent:#e2775a; --accent-hover:#ec8a6f; --on-accent:#1d1210; --ok:#3fbf7f; --danger:#f07070; --agent-claude:#e2775a; --agent-gemini:#45c4dc; --agent-antigravity:#9b7bf0; --agent-codex:#e46fb0; --pet-idle:#9aa3ad; --pet-working:#5b8def; --pet-waiting:#f0b03a; --pet-done:#3fbf7f; --radius:12px; --ease:cubic-bezier(0.22,1,0.36,1); font:14px/1.5 \"Segoe UI Variable Text\",\"Segoe UI\",system-ui,sans-serif; color:var(--text); } .ds-badges { display:flex; gap:8px; } .ds-badge { display:inline-flex; align-items:center; height:20px; padding:0 8px; border-radius:6px; background:var(--raised); color:var(--text-2); font-size:11px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; white-space:nowrap; } .ds-badge-ok { background:rgba(63,191,127,.14); color:#5fd89a; } .ds-badge-error { background:rgba(240,112,112,.14); color:#ff8b8b; }"
+    },
+    {
+      "name": "Grouped Box with Setting Rows",
+      "kind": "card",
+      "refersTo": "box",
+      "description": "The core unit: a group label heading a rounded box of rows, title and sentence left, control right.",
+      "html": "<div class=\"ds-page\"><h2 class=\"ds-group\">Available</h2><div class=\"ds-box\"><div class=\"ds-row\"><span class=\"ds-dot\" style=\"background:var(--agent-claude)\"></span><div class=\"ds-text\"><div class=\"ds-title\">Claude Code <span class=\"ds-badge\">Hook</span></div><p class=\"ds-desc\">2 active sessions · 1 needs you</p></div><button class=\"ds-btn\" type=\"button\">Disconnect</button></div><div class=\"ds-row ds-muted\"><span class=\"ds-dot\" style=\"background:var(--agent-gemini)\"></span><div class=\"ds-text\"><div class=\"ds-title\">Gemini CLI</div><p class=\"ds-desc\">Hook support is on the way.</p></div><span class=\"ds-badge\">Coming soon</span></div></div></div>",
+      "css": ":host, .ds-root { --ground:#1b1c1f; --sidebar:#141517; --box:#222327; --raised:#2a2c31; --raised-hover:#33353b; --line:#2f3136; --text:#ececee; --text-2:#a3a6ad; --accent:#e2775a; --accent-hover:#ec8a6f; --on-accent:#1d1210; --ok:#3fbf7f; --danger:#f07070; --agent-claude:#e2775a; --agent-gemini:#45c4dc; --agent-antigravity:#9b7bf0; --agent-codex:#e46fb0; --pet-idle:#9aa3ad; --pet-working:#5b8def; --pet-waiting:#f0b03a; --pet-done:#3fbf7f; --radius:12px; --ease:cubic-bezier(0.22,1,0.36,1); font:14px/1.5 \"Segoe UI Variable Text\",\"Segoe UI\",system-ui,sans-serif; color:var(--text); } .ds-btn { height:34px; padding:0 16px; border:1px solid var(--line); border-radius:8px; background:var(--raised); color:var(--text); font:inherit; font-weight:600; cursor:pointer; transition:background .15s var(--ease); } .ds-btn:hover { background:var(--raised-hover); } .ds-btn:focus-visible { outline:2px solid var(--accent); outline-offset:2px; } .ds-btn:disabled { opacity:.55; cursor:default; } .ds-page { background:var(--ground); padding:24px; } .ds-group { margin:0 0 10px 2px; font-size:12px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--text-2); } .ds-box { border:1px solid var(--line); border-radius:var(--radius); background:var(--box); } .ds-row { display:flex; align-items:center; gap:14px; min-height:68px; padding:14px 20px; } .ds-row + .ds-row { border-top:1px solid var(--line); } .ds-dot { width:10px; height:10px; border-radius:50%; flex:none; } .ds-text { flex:1; min-width:0; } .ds-title { display:flex; align-items:center; gap:8px; font-weight:600; } .ds-desc { margin:2px 0 0; font-size:13px; color:var(--text-2); } .ds-muted .ds-title { color:var(--text-2); } .ds-muted .ds-dot { opacity:.75; } .ds-badge { display:inline-flex; align-items:center; height:20px; padding:0 8px; border-radius:6px; background:var(--raised); color:var(--text-2); font-size:11px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; }"
+    },
+    {
+      "name": "Event-Server Health Pill",
+      "kind": "custom",
+      "refersTo": "health-pill",
+      "description": "Top of the sidebar: app health at a glance, green OK or red Error.",
+      "html": "<div class=\"ds-side\"><div class=\"ds-health\"><span class=\"ds-hdot\"></span>Event server<span class=\"ds-hstatus\">OK</span></div><div class=\"ds-health ds-health-error\"><span class=\"ds-hdot\"></span>Event server<span class=\"ds-hstatus\">Error</span></div></div>",
+      "css": ":host, .ds-root { --ground:#1b1c1f; --sidebar:#141517; --box:#222327; --raised:#2a2c31; --raised-hover:#33353b; --line:#2f3136; --text:#ececee; --text-2:#a3a6ad; --accent:#e2775a; --accent-hover:#ec8a6f; --on-accent:#1d1210; --ok:#3fbf7f; --danger:#f07070; --agent-claude:#e2775a; --agent-gemini:#45c4dc; --agent-antigravity:#9b7bf0; --agent-codex:#e46fb0; --pet-idle:#9aa3ad; --pet-working:#5b8def; --pet-waiting:#f0b03a; --pet-done:#3fbf7f; --radius:12px; --ease:cubic-bezier(0.22,1,0.36,1); font:14px/1.5 \"Segoe UI Variable Text\",\"Segoe UI\",system-ui,sans-serif; color:var(--text); } .ds-side { display:flex; flex-direction:column; gap:12px; width:216px; padding:12px; background:var(--sidebar); } .ds-health { display:flex; align-items:center; gap:10px; padding:10px 12px; border:1px solid var(--line); border-radius:10px; background:var(--ground); font-weight:600; } .ds-hdot { width:8px; height:8px; border-radius:50%; background:var(--ok); } .ds-hstatus { margin-left:auto; font-size:11px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--text-2); } .ds-health-error .ds-hdot { background:var(--danger); } .ds-health-error .ds-hstatus { color:var(--danger); }"
+    },
+    {
+      "name": "Live Pet Row",
+      "kind": "custom",
+      "description": "Signature: placeholder pets in the sidebar foot; body colour is state, ring is agent. Mascot art pending.",
+      "html": "<div class=\"ds-live\"><p class=\"ds-live-title\">On your desktop</p><div class=\"ds-pets\"><span class=\"ds-pet ds-working\" style=\"--ring:var(--agent-claude)\" role=\"img\" aria-label=\"Claude Code is working\"></span><span class=\"ds-pet ds-waiting\" style=\"--ring:var(--agent-claude)\" role=\"img\" aria-label=\"Claude Code needs you\"></span><span class=\"ds-pet\" style=\"--ring:var(--agent-antigravity)\" role=\"img\" aria-label=\"Antigravity is idle\"></span><span class=\"ds-pet ds-done\" style=\"--ring:var(--agent-codex)\" role=\"img\" aria-label=\"Codex CLI is done\"></span></div></div>",
+      "css": ":host, .ds-root { --ground:#1b1c1f; --sidebar:#141517; --box:#222327; --raised:#2a2c31; --raised-hover:#33353b; --line:#2f3136; --text:#ececee; --text-2:#a3a6ad; --accent:#e2775a; --accent-hover:#ec8a6f; --on-accent:#1d1210; --ok:#3fbf7f; --danger:#f07070; --agent-claude:#e2775a; --agent-gemini:#45c4dc; --agent-antigravity:#9b7bf0; --agent-codex:#e46fb0; --pet-idle:#9aa3ad; --pet-working:#5b8def; --pet-waiting:#f0b03a; --pet-done:#3fbf7f; --radius:12px; --ease:cubic-bezier(0.22,1,0.36,1); font:14px/1.5 \"Segoe UI Variable Text\",\"Segoe UI\",system-ui,sans-serif; color:var(--text); } .ds-live { width:216px; padding:14px 12px 8px; background:var(--sidebar); border-top:1px solid #222326; } .ds-live-title { margin:0 0 12px; font-size:12px; font-weight:600; color:var(--text-2); } .ds-pets { display:flex; gap:14px; padding:4px; align-items:flex-end; } .ds-pet { width:35px; height:35px; border-radius:50% 50% 45% 45%; background:var(--pet-idle); box-shadow:0 0 0 2px var(--sidebar), 0 0 0 4px var(--ring); transition:background .3s; } .ds-working { background:var(--pet-working); animation:ds-bounce .6s ease-in-out infinite; } .ds-waiting { background:var(--pet-waiting); animation:ds-pulse 1s ease-in-out infinite; } .ds-done { background:var(--pet-done); } @keyframes ds-bounce { 50% { transform:translateY(-5.5px); } } @keyframes ds-pulse { 50% { transform:scale(1.08); } } @media (prefers-reduced-motion: reduce) { .ds-pet { animation:none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Switchboard",
+    "overview": "Collective Runtime's Settings window is a calm, dark desktop panel where several agents are plugged in side by side. It is built like a familiar native settings app: a darker left sidebar, a page title with one plain sentence, and settings grouped into rounded charcoal boxes, each row a title and a sentence on the left with its control on the right. Nothing competes for attention; the panel is visited briefly to connect an agent or nudge a setting, and every change applies the moment it is made.\n\nColour carries meaning, never decoration. One coral accent marks what is switched on or chosen. Separately, each agent owns an identity colour (shown as a dot and as a ring), and each pet's body colour is its state. Those three channels never mix. The sidebar foot always shows the live pets currently on the desktop, so the panel never forgets it exists to watch many agents.\n\nThe world rejects the generic web-dashboard look (top navigation, hero banners, icon-tile grids) and any single-pet framing: every page assumes more than one agent. The layout follows the user-pinned `Referance/` screenshots in kind, but the system, tokens and markup here are this project's own.",
+    "keyCharacteristics": [
+      "Near-black charcoal ground with a darker sidebar and slightly raised boxes, separated by hairline borders rather than shadows.",
+      "One coral accent, reserved for on-states, the slider, the selected nav icon, the primary action and the active theme.",
+      "Three independent colour channels: accent (on/chosen), agent identity (dot and ring), pet state (body colour).",
+      "System UI sans (Segoe UI Variable) throughout, with small uppercase tracked labels heading groups and badges.",
+      "Dense, quiet rows: title plus one sentence, control on the right, changes apply instantly with no Save button.",
+      "A live pet row at the foot of the sidebar as the signature element."
+    ],
+    "rules": [
+      {
+        "name": "The One Ember Rule",
+        "body": "Ember Coral means \"on\" or \"chosen\" and nothing else. If an element is not a switched-on control, the slider, the selected nav icon, a primary action, or the active theme, it is not coral.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Channels Rule",
+        "body": "A pet's body colour is its state; its ring is its agent; the accent is never either. Never tint a pet by agent or ring it by state.",
+        "section": "colors"
+      },
+      {
+        "name": "The Words-Too Rule",
+        "body": "Colour never carries meaning alone: every status colour sits beside a word (a badge, the health status text, an accessible pet label).",
+        "section": "colors"
+      },
+      {
+        "name": "The Heads-Its-Box Rule",
+        "body": "An uppercase group label always names the box directly below it. It is never an eyebrow stacked above another heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The One-Sentence Rule",
+        "body": "Every page and every setting row gets a short title and one plain sentence explaining what it does; numbers in readouts use tabular figures.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hairline-Not-Shadow Rule",
+        "body": "Boxes, cards, buttons and the health pill separate by tone and a 1px hairline. A drop shadow on a surface is out of system.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do build every setting as a row in a grouped box: Body Strong title and one plain sentence on the left, the control on the right.",
+      "Do apply every change the moment it is made; the panel has no Save button, and a failed save restores the control and says so in Alarm Red.",
+      "Do keep Ember Coral to on-switches, the slider, the selected nav icon, primary actions and the active theme.",
+      "Do show an agent's identity as its 10px dot and as the 2px ring around its live pet, and a pet's state as its body colour.",
+      "Do pair every status colour with a word: a badge, the health status text, or the pet's accessible label.",
+      "Do restyle native controls (checkbox as switch, range as slider) so keyboard and screen readers keep working, with the 2px Ember Coral focus outline.",
+      "Do design every page for several agents at once, including the empty state (\"Pets show up here when an agent starts working.\").",
+      "Do stop all transitions and pet animations under reduced motion."
+    ],
+    "donts": [
+      "Don't use a top navigation bar, hero banner or icon-tile dashboard; navigation lives in the left sidebar.",
+      "Don't use Ember Coral for headings, links, decoration or success and error states; status uses Signal Green and Alarm Red.",
+      "Don't tint a pet's body by agent or colour its ring by state.",
+      "Don't put an uppercase label above another heading as an eyebrow; group labels only head their box.",
+      "Don't add drop shadows to boxes, cards or buttons; separate surfaces with tone and a 1px Hairline.",
+      "Don't copy clawd-on-desk code, sprite files or its Clawd character; Clawd is Anthropic's mascot and this project's mascot must be original.",
+      "Don't invent the mascot's look in a surface; use the placeholder blob until the mascot art is designed and recorded here."
+    ]
+  }
+}

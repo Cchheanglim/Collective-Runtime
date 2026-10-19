@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+  <title>Collective Runtime Settings</title>
+  <link rel="stylesheet" href="pets.css">
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="health" id="health" role="status">
+        <span class="health-dot" aria-hidden="true"></span>
+        <span class="health-name">Event server</span>
+        <span class="health-status" id="health-status">…</span>
+      </div>
+      <p class="health-msg" id="health-msg" role="alert" hidden></p>
+
+      <nav class="nav" aria-label="Settings sections">
+        <button class="nav-item" type="button" data-page="agents">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="5" r="2.4"/><circle cx="4.5" cy="14.5" r="2.4"/><circle cx="15.5" cy="14.5" r="2.4"/><path d="M8.8 7.1 5.7 12.4M11.2 7.1l3.1 5.3M6.9 14.5h6.2"/></svg>
+          Agents
+        </button>
+        <button class="nav-item" type="button" data-page="general">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h14M3 14h14"/><circle cx="12.5" cy="6" r="2.2"/><circle cx="7" cy="14" r="2.2"/></svg>
+          General
+        </button>
+        <button class="nav-item" type="button" data-page="theme">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 16.5V10a6 6 0 0 1 12 0v6.5l-2-1.5-2 1.5-2-1.5-2 1.5-2-1.5z"/><circle cx="8" cy="10" r=".6"/><circle cx="12" cy="10" r=".6"/></svg>
+          Theme
+        </button>
+      </nav>
+
+      <section class="live" aria-labelledby="live-title">
+        <h2 class="live-title" id="live-title">On your desktop</h2>
+        <div class="live-pets" id="live-pets"></div>
+        <p class="live-empty" id="live-empty">Pets show up here when an agent starts working.</p>
+      </section>
+    </aside>
+
+    <main class="content">
+      <section class="page" id="page-agents" aria-labelledby="agents-title">
+        <header class="page-head">
+          <h1 id="agents-title">Agents</h1>
+          <p>Connect your AI tools so each one gets its own pet. Agents report what they're doing to this app only; nothing leaves your computer.</p>
+        </header>
+
+        <h2 class="group-title">Available</h2>
+        <div class="box">
+          <div class="row">
+            <span class="agent-dot agent-claude" aria-hidden="true"></span>
+            <div class="row-text">
+              <div class="row-title">
+                Claude Code
+                <span class="badge">Hook</span>
+                <span class="badge" id="claude-badge" hidden></span>
+              </div>
+              <p class="row-desc" id="claude-live">&nbsp;</p>
+            </div>
+            <button class="btn" type="button" id="claude-toggle" disabled>Checking…</button>
+          </div>
+          <div class="row row-note">
+            <p class="row-desc">Adds a hook to <code>~/.claude/settings.json</code> and leaves everything else in that file alone. A backup is saved before every change. Takes effect in new Claude Code sessions.</p>
+          </div>
+          <div class="row row-error" id="claude-error" role="alert" hidden>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3 2.5 16.5h15z"/><path d="M10 8.5v3.5M10 14.4v.1"/></svg>
+            <p class="row-desc" id="claude-error-text"></p>
+          </div>
+        </div>
+
+        <h2 class="group-title">Coming soon</h2>
+        <div class="box">
+          <div class="row is-muted">
+            <span class="agent-dot agent-gemini" aria-hidden="true"></span>
+            <div class="row-text">
+              <div class="row-title">Gemini CLI</div>
+              <p class="row-desc">Hook support is on the way.</p>
+            </div>
+            <span class="badge">Coming soon</span>
+          </div>
+          <div class="row is-muted">
+            <span class="agent-dot agent-antigravity" aria-hidden="true"></span>
+            <div class="row-text">
+              <div class="row-title">Antigravity</div>
+              <p class="row-desc">Hook support is on the way.</p>
+            </div>
+            <span class="badge">Coming soon</span>
+          </div>
+          <div class="row is-muted">
+            <span class="agent-dot agent-codex" aria-hidden="true"></span>
+            <div class="row-text">
+              <div class="row-title">Codex CLI</div>
+              <p class="row-desc">Hook support is on the way.</p>
+            </div>
+            <span class="badge">Coming soon</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="page" id="page-general" aria-labelledby="general-title" hidden>
+        <header class="page-head">
+          <h1 id="general-title">General</h1>
+          <p>Change how the pets look and behave on your desktop. Changes apply right away.</p>
+        </header>
+
+        <h2 class="group-title">Pets</h2>
+        <div class="box">
+          <div class="row">
+            <div class="row-text">
+              <label class="row-title" for="pet-size">Pet size</label>
+              <p class="row-desc" id="pet-size-desc">Make every pet bigger or smaller.</p>
+            </div>
+            <div class="slider">
+              <input type="range" id="pet-size" min="50" max="150" step="10" aria-describedby="pet-size-desc">
+              <output id="pet-size-value" for="pet-size">100%</output>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row-text">
+              <label class="row-title" for="show-labels">Show name labels</label>
+              <p class="row-desc" id="show-labels-desc">Show each agent's name under its pet.</p>
+            </div>
+            <input class="switch" type="checkbox" role="switch" id="show-labels" data-setting="showLabels" aria-describedby="show-labels-desc">
+          </div>
+          <div class="row">
+            <div class="row-text">
+              <label class="row-title" for="remove-finished">Remove finished pets</label>
+              <p class="row-desc" id="remove-finished-desc">Hide a pet 30 seconds after its session ends. Turn off to keep it dozing on your desktop.</p>
+            </div>
+            <input class="switch" type="checkbox" role="switch" id="remove-finished" data-setting="removeFinished" aria-describedby="remove-finished-desc">
+          </div>
+        </div>
+
+        <h2 class="group-title">Startup</h2>
+        <div class="box">
+          <div class="row">
+            <div class="row-text">
+              <label class="row-title" for="start-with-windows">Start with Windows</label>
+              <p class="row-desc" id="start-with-windows-desc">Open Collective Runtime when you sign in.</p>
+            </div>
+            <input class="switch" type="checkbox" role="switch" id="start-with-windows" data-setting="startWithWindows" aria-describedby="start-with-windows-desc">
+          </div>
+        </div>
+        <p class="save-error" id="save-error" role="alert" hidden></p>
+      </section>
+
+      <section class="page" id="page-theme" aria-labelledby="theme-title" hidden>
+        <header class="page-head">
+          <h1 id="theme-title">Theme</h1>
+          <p>Choose the character your agents appear as.</p>
+        </header>
+
+        <h2 class="group-title">Built-in</h2>
+        <div class="themes">
+          <article class="theme-card is-active" aria-labelledby="theme-blobs">
+            <div class="theme-preview" id="theme-preview" aria-hidden="true"></div>
+            <div class="theme-meta">
+              <h3 id="theme-blobs">Blobs</h3>
+              <span class="badge">Placeholder</span>
+            </div>
+            <p class="row-desc">Simple shapes for now. Colour shows state: grey idle, blue working, amber needs you.</p>
+            <p class="theme-status">
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4.5 10.5 3.5 3.5 7.5-8"/></svg>
+              Active
+            </p>
+          </article>
+          <article class="theme-card is-pending" aria-labelledby="theme-mascot">
+            <div class="theme-preview">
+              <p>Our own character is being designed.</p>
+            </div>
+            <div class="theme-meta">
+              <h3 id="theme-mascot">Mascot</h3>
+              <span class="badge">Coming soon</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="pets.js"></script>
+  <script src="settings.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "collective-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Desktop pets for your AI agents",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^44.9.0"
+  }
+}

@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: transparent;
+  overflow: hidden;
+  user-select: none;
+  -webkit-app-region: drag; /* drag the whole window to move the pets */
+}
+
+#stage {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: calc(12px * var(--scale, 1));
+  padding: 0 calc(12px * var(--scale, 1)) calc(8px * var(--scale, 1));
+  box-sizing: border-box;
+}
+
+.no-labels .pet-label { display: none; }
